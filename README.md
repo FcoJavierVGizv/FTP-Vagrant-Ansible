@@ -50,6 +50,8 @@ con Vagrant y configurarla con Ansible desde un nodo controlador:
 
 ![Tablero inicial de GitHub Projects](img/tablero-inicial.png)
 
+![Tablero tras completar Licencia, README y Vagrant](img/tablero-vagrant.png)
+
 ## Infraestructura con Vagrant
 
 Se definen tres máquinas virtuales basadas en `debian/bookworm64` en la red privada 192.168.57.0/24:
