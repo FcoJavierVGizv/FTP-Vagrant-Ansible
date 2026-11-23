@@ -45,3 +45,19 @@ con Vagrant y configurarla con Ansible desde un nodo controlador:
    ```bash
    vagrant ssh ansible
    ```
+
+   ## Gestión del proyecto
+
+![Tablero inicial de GitHub Projects](img/tablero-inicial.png)
+
+## Infraestructura con Vagrant
+
+Se definen tres máquinas virtuales basadas en `debian/bookworm64` en la red privada 192.168.57.0/24:
+
+| Máquina | Nombre | IP | Función |
+|---|---|---|---|
+| dns | dns.franciscoj.test | 192.168.57.5 | Servidor DNS |
+| ansible | ansible.franciscoj.test | 192.168.57.6 | Nodo de control de Ansible |
+| negocio | negocio.franciscoj.test | 192.168.57.7 | Servidor web y FTP seguro |
+
+![Estado de las máquinas con vagrant status](img/vagrant-status.png)
